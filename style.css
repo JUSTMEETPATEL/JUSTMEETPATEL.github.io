@@ -45,6 +45,17 @@
     85%,100%{opacity: 0; scale: 3;}
 }
 
+@keyframes cursor {
+    50%{
+        border-color: transparent;
+    }
+}
+
+@keyframes typing {
+    from{ width: 0 ;}
+    
+}
+
 *{
     padding: 0;
     margin: 0;
@@ -122,10 +133,7 @@ button{
     font-size: 39px;
     color: white;
     font-family: Grosek;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-content: center;
+    display: inline-block;
     position: absolute;
     padding-top: 50px;
     top:70%;
@@ -133,6 +141,20 @@ button{
     animation-timeline: view();
     animation-range: exit -200px;
 }   
+
+.text{
+    font-size: 39px;
+    letter-spacing: 10px;
+    font-family: Grosek;
+    border-right :5px solid ;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: 
+        typing 3s,
+        cursor .4s step-end infinite alternate;
+
+}
 .container2{
     display: flex;
     justify-content: center;
@@ -285,7 +307,7 @@ button{
 
 .resume{
     font-size: 20px;
-    text-decoration: none;
+
 
 }
 
