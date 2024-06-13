@@ -8,8 +8,8 @@ const Footer = () => {
     <footer className="w-full pt-20 pb-10" id="contact">
       
       <div className="flex flex-col items-center">
-        <p className="text-white-200 text-6xl md:mt-10 my-5 text-center">
-          Reach out to me today
+        <p className="text-white-200 text-4xl md:text-6xl md:mt-10 my-5 text-center">
+          Reach out to me 
         </p>
         <a href="mailto:justmeetpatel@gmail.com">
           <MagicButton
