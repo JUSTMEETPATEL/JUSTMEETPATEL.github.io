@@ -2,7 +2,7 @@ export const projects = [
     {
         id: 1,
         title: "PassInk",
-        des: "PassInk is a Password Manager which saves the website, username and password in device's local storage",
+        des: "PassInk is a user-friendly password manager designed to securely store your website logins, usernames, and passwords directly on your device's local storage.",
         img: "/passink.png",
         iconLists: ["/react.svg", "/tailwindcss.svg", "/javascript.svg"],
         link: "https://meetpatel.me/PassInk",
@@ -10,7 +10,7 @@ export const projects = [
     {
         id: 2,
         title: "Clutter Folder Manager",
-        des: "Clutter Folder Manager is a node.js based program which sort out the files of the given directory as per there file extension",
+        des: "Clutter Folder Manager is a Node.js-based program that organizes the files in a specified directory by sorting them according to their file extensions.",
         img: "/clutter.jpeg",
         iconLists: ["/javascript.svg"],
         link: "https://github.com/JUSTMEETPATEL/ClutterFolderManager",
@@ -18,7 +18,7 @@ export const projects = [
     {
         id: 3,
         title: "Valetudo",
-        des: "Valetduo was a python gui program which have login system with otp verification, this also have a BMI calculator which provide a diet plan as per the bmi",
+        des: "Valetduo is a Python-based GUI program featuring a secure login system with OTP verification.",
         img: "/valetudo.png",
         iconLists: ["/python.svg", "/mysql.svg"],
         link: "https://github.com/JUSTMEETPATEL/BMI-with-Login-system-in-Python-using-GUI",

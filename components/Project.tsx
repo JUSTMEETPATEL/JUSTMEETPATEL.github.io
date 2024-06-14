@@ -8,7 +8,7 @@ import { PinContainer } from "./ui/Pin";
 
 const Project = () => {
   return (
-    <div className="py-20" id = "project">
+    <div className="py-20" id="project">
       <h1 className="md:text-7xl text-3xl  text-center">
         A small selection of{" "}
         <span className="text-cyan-500">recent projects</span>
@@ -37,12 +37,12 @@ const Project = () => {
                 />
               </div>
 
-              <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1">
+              <h1 className="font-bold lg:text-2xl md:text-xl  text-base line-clamp-1">
                 {item.title}
               </h1>
 
               <p
-                className="lg:text-xl lg:font-normal font-light text-sm line-clamp-2"
+                className="lg:text-xs lg:font-normal font-light text-sm line-clamp-2"
                 style={{
                   color: "#BEC1DD",
                   margin: "1vh 0",
@@ -65,13 +65,15 @@ const Project = () => {
                     </div>
                   ))}
                 </div>
+                <a href={item.link} target="_blank">
 
-                <div className="flex justify-center items-center">
-                  <p className="flex lg:text-xl md:text-xs text-sm text-purple">
-                    Check Live Site
-                  </p>
-                  <FaLocationArrow className="ms-3" color="#CBACF9" />
-                </div>
+                  <div className="flex justify-center items-center">
+                    <p className="flex lg:text-xl md:text-xs text-sm text-purple">
+                      Check Live Site
+                    </p>
+                    <FaLocationArrow className="ms-3" color="#CBACF9" />
+                  </div>
+                </a>
               </div>
             </PinContainer>
           </div>
