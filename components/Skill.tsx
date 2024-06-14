@@ -6,7 +6,7 @@ const Skill = () => {
         <>
             <div className="mt-72"></div>
             <h1 className="md:text-7xl text-4xl mb-20 md:mx-72"><span className='text-indigo-700'>&lt;</span>Skills <span className='text-indigo-700'>/&gt;</span></h1>
-            <div className='w-full h-full md:flex md:justify-center md:items-center flex mx-5 mb-72'>
+            <div className='w-full md:flex md:justify-center md:items-center flex mx-16 mb-72'>
                 <AnimatedTooltip items={[
                     { id: 1, name: "JavaScript", designation: "", image: "/javascript.svg" },
                     { id: 2, name: "TypeScript", designation: "", image: "/typescript.svg" },
