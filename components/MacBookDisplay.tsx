@@ -9,7 +9,7 @@ const MacBookDisplay = () => {
         <div>
             {/* <div className="mt-32"></div> */}
             <div className='mb-72'>
-                <MacbookScroll src='/Meet.jpg' showGradient={true}  title=" "/>
+                <MacbookScroll src='/Hackathon.jpeg' showGradient={true}  title=" "/>
             </div>
 
         </div>

@@ -2,6 +2,7 @@ import React from 'react'
 import { BackgroundBeams } from './ui/BackgroundBeam'
 import { FlipWords } from './ui/WordFlip'
 
+
 const Hero = () => {
   return (
     <>
