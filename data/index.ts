@@ -21,7 +21,7 @@ export const projects = [
         des: "The of the project is to provide user with a random recipe for the day",
         img: "/recipe-roulette.png",
         iconLists: ["/javascript.svg", "/tailwindcss.svg","/next.svg"],
-        link: "https://recipe-roulette-eta.vercel.app/",
+        link: "https://recipe-roulette-eight.vercel.app/",
     },
 ];
 
