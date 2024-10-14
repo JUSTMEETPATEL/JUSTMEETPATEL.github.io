@@ -109,7 +109,7 @@ export const Header = () => {
       <h1 className="text-2xl md:text-7xl font-bold dark:text-purple-700">
         Meet Patel
         <br />
-        <span className="text-white">I am a <FlipWords words={words}/> </span>
+        <span className="text-black dark:text-white">I am a <FlipWords words={words}/> </span>
       </h1>
       <p className="max-w-2xl text-base md:text-xl mt-8 dark:text-neutral-200">
         I build beautiful products with the latest technologies and frameworks.
